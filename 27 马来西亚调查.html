@@ -141,12 +141,17 @@
       document.getElementById(BookmarkName).style.display = "block";
       evt.currentTarget.className += " active";
 }
+    document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("Geography").style.display = "block";
+  document.getElementsByClassName("tablinks")[0].className += " active";
+});
 </script>
 
 </body>
 
 
 </html> 
+
 
 
 
